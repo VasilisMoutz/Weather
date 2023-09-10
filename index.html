@@ -19,14 +19,11 @@
             <img class="searchIcon" src="./img/search.png" alt="magnifying-glass">
             <input id="searchInput" class="search" type="text" placeholder="Search for a city" autofocus>
         </div>
-        <div class="weatherData">
+        <div id="weatherData" class="weatherData hidden">
+            <img id="weatherIcon" src="" alt="weather-icon">
             <div id="cityName" class="cityName">Athens</div>
-            <div class="temperature">30C</div>
-            <div class="description">Partly Cloudy</div>
-            <div class="pressureSystems">
-                <span>H:36</span>
-                <span>L:49</span>
-            </div>
+            <div class="temp"><span id="temperature">30</span><span>&deg;</span></div>
+            <div id="description" class="description">Partly Cloudy</div>
         </div>
     </div>
     <script src="./index.js"></script>
